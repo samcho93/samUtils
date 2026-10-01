@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>samUtils</title>
+  <meta name="description" content="회로/MCU 시뮬레이터, ESP·STM 웹 플래셔, 3D·Gerber·URDF 뷰어를 한 곳에서 사용하는 통합 웹 도구 모음">
+  <meta name="color-scheme" content="dark">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e639c'/%3E%3Ctext x='16' y='22' font-family='sans-serif' font-size='14' font-weight='bold' fill='white' text-anchor='middle'%3EsU%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="app-title">samUtils<small>Web Tools</small></div>
+    <nav class="tabbar" id="tabbar" role="tablist"></nav>
+    <div class="actions">
+      <button type="button" id="btn-reload" title="현재 도구 새로고침">⟳</button>
+      <button type="button" id="btn-open" title="새 창에서 열기">↗</button>
+    </div>
+  </header>
+  <main id="main"></main>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
