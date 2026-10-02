@@ -18,6 +18,8 @@ export const TOOLS = [
   { id: '3dviewer', name: '3D Viewer',  group: '뷰어',       url: `${BASE}/web3DViewer/`,   desc: '3D 모델 뷰어' },
   { id: 'gerber',   name: 'Gerber',     group: '뷰어',       url: `${BASE}/webGerber/`,     desc: 'PCB Gerber 뷰어' },
   { id: 'urdf',     name: 'URDF',       group: '뷰어',       url: `${BASE}/webURDF/`,       desc: 'ROS URDF 로봇 모델 뷰어' },
+
+  { id: 'drawio',   name: 'DrawIO',     group: '편집기',     url: `${BASE}/webDrawIO/`,     desc: '다이어그램 편집기 (draw.io)' },
 ];
 
 // 모든 iframe에 기본으로 부여하는 권한 (Web Serial/USB 플래셔, 전체화면, 클립보드 등)
